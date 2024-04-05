@@ -1,0 +1,86 @@
+
+
+
+header h1 {
+  background-color: yellow;
+}
+
+body {
+    background-image: url('/img/background-cafe.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    color: white;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.2rem;
+    color: black;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+blockquote {
+font-size: 160%;
+background-color: grey;
+border-left: 3px solid firebrick;
+word-spacing: 30px;
+border-spacing: 30px;
+padding-top: 80px;
+padding-bottom: 80px;
+font-style: italic;
+}
+
+img{
+    float: left;
+}
+
+li:nth-child(3) {
+    background-image: url(/img/chat.png);
+background-position: 60%;
+background-repeat: no-repeat;
+background-size: 10%;
+}
+
+.villagois {
+border-left: 2px solid blue;
+}
+
+.fermier {
+border-left:2px solid red;
+}
+
+.personne:nth-child(3) {
+background-image: url(/img/chat.png);
+background-position: 60%;
+background-repeat: no-repeat;
+background-size: 40%;
+}
+
+.good {
+color: green;
+}
+
+.good:nth-child(1) {
+    background-image: url(/img/bien.png);
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+ .bad{
+color: red;
+}
+
+.bad:nth-child(2) {
+    background-image: url(/img/mal.png);
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
